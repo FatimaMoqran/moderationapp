@@ -30,7 +30,7 @@ def add_comment():
         elif len(response["Terms"]) > 1:
             texte = "Votre commentaire a été supprimé !!"
         #return (response)
-        return Response(texte)
+        return render_template("index.html",message = texte)
 
     
     req_data = request.get_json()
