@@ -1,6 +1,6 @@
 import requests, json
 
-subscription_key = 'be89ff386a1d485b89e585a8955f6f57'
+subscription_key = 'mykey'
 
 def moderate(text_input):
     url = 'https://westeurope.api.cognitive.microsoft.com/contentmoderator/moderate/v1.0/ProcessText/Screen?classify=True'
